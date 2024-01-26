@@ -9,7 +9,7 @@ let works = [];
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 mongoose.connect(
-  "mongodb+srv://lakshaybindal:lakshay92533@cluster0.znxlqyn.mongodb.net/todolistDB"
+  "mongodb://127.0.0.1:27017/todolistDB"
 );
 
 const itemSchema = {
